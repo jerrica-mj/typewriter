@@ -20,3 +20,19 @@ for (let i = 0; i < sentence.length; i++) {
     }
   }, timeout);
 }
+
+// // FROM W3SCHOOLS (checked after submission & modified to work here):
+// var j = 0; // counter
+// var txt = 'Lorem ipsum dummy text blabla.';
+// var speed = 50;
+
+// function typeWriter() {
+//   if (j < txt.length) {
+//     process.stdout.write(txt.charAt(j));
+//     j++;
+//     // can call function recursively & use set timeout as delay between each character printout
+//     setTimeout(typeWriter, speed);
+//   }
+// }
+
+// typeWriter();
